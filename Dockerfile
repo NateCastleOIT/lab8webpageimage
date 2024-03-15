@@ -8,7 +8,7 @@ ENV MyName="Nate"
 WORKDIR /app
 # working path for application inside container
 
-COPY src/html /usr/share/nginx/html
+COPY lab8dockerimage/src/html /usr/share/nginx/html
 # copy the files for html from our working directory to the directory that
 
 CMD [ "nginx", "-g", "daemon off;"]
